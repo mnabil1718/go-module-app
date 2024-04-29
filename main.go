@@ -1,9 +1,14 @@
 package main
 
-import sayHello "github.com/mnabil1718/go-module-starter"
+import (
+	"fmt"
+
+	sayHello "github.com/mnabil1718/go-module-starter"
+)
 
 func main() {
 
-	sayHello.SayHello()
+	greeting := sayHello.SayHello()
+	fmt.Println(greeting)
 
 }
